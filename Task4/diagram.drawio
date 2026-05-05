@@ -1,0 +1,229 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="KH7XQFals-4uneUYkIz-">
+    <mxGraphModel dx="2065" dy="1228" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="urc1l0K7ZVh7_5Z-wwgX-1" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontStyle=1" value="Диаграмма автоматизации развёртывания" vertex="1">
+          <mxGeometry height="40" width="600" x="580" y="99" as="geometry" />
+        </mxCell>
+        <mxCell id="urc1l0K7ZVh7_5Z-wwgX-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;dashed=1;" value="" vertex="1">
+          <mxGeometry height="190" width="260" x="1280" y="179" as="geometry" />
+        </mxCell>
+        <mxCell id="urc1l0K7ZVh7_5Z-wwgX-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;" value="Terraform Managed" vertex="1">
+          <mxGeometry height="30" width="200" x="1310" y="219" as="geometry" />
+        </mxCell>
+        <mxCell id="urc1l0K7ZVh7_5Z-wwgX-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;" value="Manual Setup" vertex="1">
+          <mxGeometry height="30" width="200" x="1310" y="259" as="geometry" />
+        </mxCell>
+        <mxCell id="urc1l0K7ZVh7_5Z-wwgX-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;" value="Yandex Managed Service" vertex="1">
+          <mxGeometry height="30" width="200" x="1310" y="299" as="geometry" />
+        </mxCell>
+        <mxCell id="urc1l0K7ZVh7_5Z-wwgX-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;dashed=1;opacity=30;" value="" vertex="1">
+          <mxGeometry height="280" width="300" x="170" y="329" as="geometry" />
+        </mxCell>
+        <mxCell id="urc1l0K7ZVh7_5Z-wwgX-8" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1" value="Ручная настройка" vertex="1">
+          <mxGeometry height="30" width="280" x="180" y="339" as="geometry" />
+        </mxCell>
+        <mxCell id="urc1l0K7ZVh7_5Z-wwgX-9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1" value="&lt;span style=&quot;font-weight: normal;&quot;&gt;Yandex Cloud Account&lt;/span&gt;" vertex="1">
+          <mxGeometry height="40" width="260" x="190" y="379" as="geometry" />
+        </mxCell>
+        <mxCell id="urc1l0K7ZVh7_5Z-wwgX-10" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="Yandex Cloud CLI (yc init)&#xa;OAuth Token, Cloud ID, Folder ID" vertex="1">
+          <mxGeometry height="40" width="260" x="190" y="429" as="geometry" />
+        </mxCell>
+        <mxCell id="urc1l0K7ZVh7_5Z-wwgX-11" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="Object Storage Bucket&#xa;(Terraform State - опционально)" vertex="1">
+          <mxGeometry height="40" width="260" x="190" y="479" as="geometry" />
+        </mxCell>
+        <mxCell id="urc1l0K7ZVh7_5Z-wwgX-12" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="Yandex Lockbox&#xa;(DB passwords, secrets)" vertex="1">
+          <mxGeometry height="40" width="260" x="190" y="529" as="geometry" />
+        </mxCell>
+        <mxCell id="urc1l0K7ZVh7_5Z-wwgX-13" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;dashed=1;opacity=30;" value="" vertex="1">
+          <mxGeometry height="820" width="650" x="580" y="159" as="geometry" />
+        </mxCell>
+        <mxCell id="urc1l0K7ZVh7_5Z-wwgX-14" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1" value="Terraform Automation (Yandex Cloud)" vertex="1">
+          <mxGeometry height="30" width="630" x="580" y="169" as="geometry" />
+        </mxCell>
+        <mxCell id="urc1l0K7ZVh7_5Z-wwgX-15" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1f5e1;strokeColor=#82b366;" value="" vertex="1">
+          <mxGeometry height="80" width="610" x="600" y="239" as="geometry" />
+        </mxCell>
+        <mxCell id="urc1l0K7ZVh7_5Z-wwgX-16" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontStyle=1" value="Terraform Configuration Files" vertex="1">
+          <mxGeometry height="20" width="590" x="610" y="244" as="geometry" />
+        </mxCell>
+        <mxCell id="urc1l0K7ZVh7_5Z-wwgX-17" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;" value="main.tf" vertex="1">
+          <mxGeometry height="35" width="120" x="640" y="274" as="geometry" />
+        </mxCell>
+        <mxCell id="urc1l0K7ZVh7_5Z-wwgX-18" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;" value="variables.tf" vertex="1">
+          <mxGeometry height="35" width="120" x="770" y="274" as="geometry" />
+        </mxCell>
+        <mxCell id="urc1l0K7ZVh7_5Z-wwgX-19" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;" value="outputs.tf" vertex="1">
+          <mxGeometry height="35" width="120" x="900" y="274" as="geometry" />
+        </mxCell>
+        <mxCell id="urc1l0K7ZVh7_5Z-wwgX-20" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;" value="terraform.tfvars" vertex="1">
+          <mxGeometry height="35" width="120" x="1030" y="274" as="geometry" />
+        </mxCell>
+        <mxCell id="urc1l0K7ZVh7_5Z-wwgX-21" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1f5e1;strokeColor=#82b366;" value="" vertex="1">
+          <mxGeometry height="280" width="290" x="600" y="339" as="geometry" />
+        </mxCell>
+        <mxCell id="urc1l0K7ZVh7_5Z-wwgX-22" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;fontStyle=1" value="VPC &amp; Networking" vertex="1">
+          <mxGeometry height="25" width="270" x="610" y="349" as="geometry" />
+        </mxCell>
+        <mxCell id="urc1l0K7ZVh7_5Z-wwgX-23" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;" value="VPC Network" vertex="1">
+          <mxGeometry height="30" width="120" x="615" y="384" as="geometry" />
+        </mxCell>
+        <mxCell id="urc1l0K7ZVh7_5Z-wwgX-24" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;" value="Route Tables" vertex="1">
+          <mxGeometry height="30" width="120" x="750" y="384" as="geometry" />
+        </mxCell>
+        <mxCell id="urc1l0K7ZVh7_5Z-wwgX-25" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;" value="Public Subnets" vertex="1">
+          <mxGeometry height="40" width="120" x="615" y="424" as="geometry" />
+        </mxCell>
+        <mxCell id="urc1l0K7ZVh7_5Z-wwgX-26" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;" value="Private Subnets" vertex="1">
+          <mxGeometry height="40" width="120" x="750" y="424" as="geometry" />
+        </mxCell>
+        <mxCell id="urc1l0K7ZVh7_5Z-wwgX-28" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;" value="NAT Instances&lt;br&gt;+ Public IPs" vertex="1">
+          <mxGeometry height="40" width="260" x="610" y="474" as="geometry" />
+        </mxCell>
+        <mxCell id="urc1l0K7ZVh7_5Z-wwgX-29" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;" value="Security Groups" vertex="1">
+          <mxGeometry height="40" width="255" x="615" y="524" as="geometry" />
+        </mxCell>
+        <mxCell id="urc1l0K7ZVh7_5Z-wwgX-30" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;" value="KMS Encryption Keys" vertex="1">
+          <mxGeometry height="35" width="255" x="615" y="574" as="geometry" />
+        </mxCell>
+        <mxCell id="urc1l0K7ZVh7_5Z-wwgX-31" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1f5e1;strokeColor=#82b366;" value="" vertex="1">
+          <mxGeometry height="280" width="290" x="920" y="339" as="geometry" />
+        </mxCell>
+        <mxCell id="urc1l0K7ZVh7_5Z-wwgX-32" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;fontStyle=1" value="Managed Kubernetes" vertex="1">
+          <mxGeometry height="25" width="270" x="930" y="349" as="geometry" />
+        </mxCell>
+        <mxCell id="urc1l0K7ZVh7_5Z-wwgX-33" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;fontStyle=1" value="&lt;span style=&quot;font-weight: normal;&quot;&gt;Kubernetes Cluster&lt;/span&gt;" vertex="1">
+          <mxGeometry height="40" width="260" x="935" y="384" as="geometry" />
+        </mxCell>
+        <mxCell id="urc1l0K7ZVh7_5Z-wwgX-34" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;" value="Node Group" vertex="1">
+          <mxGeometry height="40" width="260" x="930" y="434" as="geometry" />
+        </mxCell>
+        <mxCell id="urc1l0K7ZVh7_5Z-wwgX-36" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;" value="Service Accounts" vertex="1">
+          <mxGeometry height="35" width="260" x="930" y="489" as="geometry" />
+        </mxCell>
+        <mxCell id="urc1l0K7ZVh7_5Z-wwgX-37" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;" value="Network Policy" vertex="1">
+          <mxGeometry height="30" width="260" x="930" y="539" as="geometry" />
+        </mxCell>
+        <mxCell id="urc1l0K7ZVh7_5Z-wwgX-38" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1f5e1;strokeColor=#82b366;" value="" vertex="1">
+          <mxGeometry height="281" width="290" x="600" y="639" as="geometry" />
+        </mxCell>
+        <mxCell id="urc1l0K7ZVh7_5Z-wwgX-39" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;fontStyle=1" value="Data &amp; Storage" vertex="1">
+          <mxGeometry height="25" width="270" x="610" y="649" as="geometry" />
+        </mxCell>
+        <mxCell id="urc1l0K7ZVh7_5Z-wwgX-40" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;" value="Managed PostgreSQL&lt;br&gt;Healthcare" vertex="1">
+          <mxGeometry height="50" width="120" x="615" y="684" as="geometry" />
+        </mxCell>
+        <mxCell id="urc1l0K7ZVh7_5Z-wwgX-41" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;" value="Managed PostgreSQL&lt;br&gt;Fintech" vertex="1">
+          <mxGeometry height="50" width="120" x="750" y="684" as="geometry" />
+        </mxCell>
+        <mxCell id="urc1l0K7ZVh7_5Z-wwgX-42" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;" value="PostgreSQL Security Group" vertex="1">
+          <mxGeometry height="30" width="255" x="615" y="744" as="geometry" />
+        </mxCell>
+        <mxCell id="urc1l0K7ZVh7_5Z-wwgX-43" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;fontStyle=1" value="&lt;span style=&quot;font-weight: normal;&quot;&gt;Object Storage Bucket&lt;/span&gt;" vertex="1">
+          <mxGeometry height="50" width="255" x="615" y="784" as="geometry" />
+        </mxCell>
+        <mxCell id="urc1l0K7ZVh7_5Z-wwgX-44" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;" value="Service Account: Storage Access" vertex="1">
+          <mxGeometry height="30" width="255" x="615" y="844" as="geometry" />
+        </mxCell>
+        <mxCell id="urc1l0K7ZVh7_5Z-wwgX-45" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1f5e1;strokeColor=#82b366;" value="" vertex="1">
+          <mxGeometry height="280" width="290" x="920" y="639" as="geometry" />
+        </mxCell>
+        <mxCell id="urc1l0K7ZVh7_5Z-wwgX-46" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;fontStyle=1" value="Registry &amp; Logging" vertex="1">
+          <mxGeometry height="25" width="270" x="930" y="649" as="geometry" />
+        </mxCell>
+        <mxCell id="urc1l0K7ZVh7_5Z-wwgX-47" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;" value="Container Registry&#xa;(Docker images)" vertex="1">
+          <mxGeometry height="40" width="260" x="935" y="684" as="geometry" />
+        </mxCell>
+        <mxCell id="urc1l0K7ZVh7_5Z-wwgX-48" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;" value="Log Group: Kubernetes" vertex="1">
+          <mxGeometry height="30" width="260" x="935" y="734" as="geometry" />
+        </mxCell>
+        <mxCell id="urc1l0K7ZVh7_5Z-wwgX-49" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;" value="Log Group: PostgreSQL" vertex="1">
+          <mxGeometry height="30" width="260" x="935" y="774" as="geometry" />
+        </mxCell>
+        <mxCell id="urc1l0K7ZVh7_5Z-wwgX-50" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;" value="Cloud Monitoring&#xa;(Metrics &amp; Alerts)" vertex="1">
+          <mxGeometry height="40" width="260" x="935" y="814" as="geometry" />
+        </mxCell>
+        <mxCell id="urc1l0K7ZVh7_5Z-wwgX-51" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;" value="Labels / Tags&#xa;(project, environment, cost_center)" vertex="1">
+          <mxGeometry height="35" width="260" x="935" y="864" as="geometry" />
+        </mxCell>
+        <mxCell id="urc1l0K7ZVh7_5Z-wwgX-52" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;dashed=1;opacity=30;" value="" vertex="1">
+          <mxGeometry height="60" width="650" x="580" y="941.5" as="geometry" />
+        </mxCell>
+        <mxCell id="urc1l0K7ZVh7_5Z-wwgX-53" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;fontStyle=1" value="Yandex Managed Services (Referenced)" vertex="1">
+          <mxGeometry height="20" width="630" x="590" y="929" as="geometry" />
+        </mxCell>
+        <mxCell id="urc1l0K7ZVh7_5Z-wwgX-54" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=10;" value="KMS&#xa;(Encryption)" vertex="1">
+          <mxGeometry height="35" width="100" x="600" y="954" as="geometry" />
+        </mxCell>
+        <mxCell id="urc1l0K7ZVh7_5Z-wwgX-55" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=10;" value="Cloud DNS" vertex="1">
+          <mxGeometry height="35" width="100" x="720" y="954" as="geometry" />
+        </mxCell>
+        <mxCell id="urc1l0K7ZVh7_5Z-wwgX-56" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=10;" value="Certificate&#xa;Manager" vertex="1">
+          <mxGeometry height="35" width="100" x="840" y="954" as="geometry" />
+        </mxCell>
+        <mxCell id="urc1l0K7ZVh7_5Z-wwgX-57" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=10;" value="IAM&#xa;(Access Control)" vertex="1">
+          <mxGeometry height="35" width="100" x="960" y="954" as="geometry" />
+        </mxCell>
+        <mxCell id="urc1l0K7ZVh7_5Z-wwgX-58" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=10;" value="Lockbox&#xa;(Secrets)" vertex="1">
+          <mxGeometry height="35" width="100" x="1080" y="954" as="geometry" />
+        </mxCell>
+        <mxCell id="urc1l0K7ZVh7_5Z-wwgX-59" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;dashed=1;" value="" vertex="1">
+          <mxGeometry height="200" width="290" x="1270" y="414" as="geometry" />
+        </mxCell>
+        <mxCell id="urc1l0K7ZVh7_5Z-wwgX-60" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1" value="Terraform Workflow" vertex="1">
+          <mxGeometry height="30" width="280" x="1280" y="424" as="geometry" />
+        </mxCell>
+        <mxCell id="urc1l0K7ZVh7_5Z-wwgX-61" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=10;" value="1. terraform init&#xa;(Download provider)" vertex="1">
+          <mxGeometry height="35" width="120" x="1290" y="464" as="geometry" />
+        </mxCell>
+        <mxCell id="urc1l0K7ZVh7_5Z-wwgX-62" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=10;" value="2. terraform validate&#xa;(Check syntax)" vertex="1">
+          <mxGeometry height="35" width="120" x="1420" y="464" as="geometry" />
+        </mxCell>
+        <mxCell id="urc1l0K7ZVh7_5Z-wwgX-63" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=10;" value="3. terraform plan&#xa;(Preview changes)" vertex="1">
+          <mxGeometry height="35" width="120" x="1290" y="509" as="geometry" />
+        </mxCell>
+        <mxCell id="urc1l0K7ZVh7_5Z-wwgX-64" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=10;fontStyle=1" value="4. terraform apply&#xa;(Deploy)" vertex="1">
+          <mxGeometry height="35" width="120" x="1420" y="509" as="geometry" />
+        </mxCell>
+        <mxCell id="urc1l0K7ZVh7_5Z-wwgX-65" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=10;" value="5. terraform output&#xa;(Get connection info)" vertex="1">
+          <mxGeometry height="35" width="250" x="1290" y="554" as="geometry" />
+        </mxCell>
+        <mxCell id="urc1l0K7ZVh7_5Z-wwgX-66" edge="1" parent="1" source="urc1l0K7ZVh7_5Z-wwgX-12" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#82b366;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="urc1l0K7ZVh7_5Z-wwgX-15" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="510" y="549" />
+              <mxPoint x="560" y="549" />
+              <mxPoint x="560" y="209" />
+              <mxPoint x="730" y="209" />
+              <mxPoint x="905" y="209" />
+            </Array>
+            <mxPoint x="380" y="439" as="sourcePoint" />
+            <mxPoint x="580" y="239" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="urc1l0K7ZVh7_5Z-wwgX-67" connectable="0" parent="urc1l0K7ZVh7_5Z-wwgX-66" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;" value="State Backend" vertex="1">
+          <mxGeometry relative="1" x="0.2" y="-1" as="geometry">
+            <mxPoint x="-40" y="-11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="urc1l0K7ZVh7_5Z-wwgX-68" edge="1" parent="1" source="urc1l0K7ZVh7_5Z-wwgX-12" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#82b366;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="320" y="709" />
+              <mxPoint x="560" y="709" />
+            </Array>
+            <mxPoint x="380" y="439" as="sourcePoint" />
+            <mxPoint x="600" y="709" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="urc1l0K7ZVh7_5Z-wwgX-69" connectable="0" parent="urc1l0K7ZVh7_5Z-wwgX-68" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;" value="Secrets" vertex="1">
+          <mxGeometry relative="1" x="0.1" y="1" as="geometry">
+            <mxPoint x="5" y="-9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
